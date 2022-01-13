@@ -4,8 +4,8 @@
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "25+5 clock"
+    "default_title": "Drum Machine"
   },
   "version": "1.0",
-  "content_security_policy": "script-src 'self' 'sha256-QUIMvM2f9nMBim9SwqHupYEHvrIBf0fUBWer/0dIUdU='; object-src 'self'"
+  "content_security_policy": "script-src 'self' 'sha256-ghD27R16wVGph0xG5vIF+mKXPyM7swVcsU1bv5LnUdo='; object-src 'self'"
 }

@@ -22,7 +22,6 @@ class App extends React.Component {
 	}
 	onKeyPressed(e) {
 		const elt = document.getElementById(e.key.toUpperCase());
-		// console.log(document.getElementById(e.key.toUpperCase()));
 		if (elt != null) {
 			elt.style.color = "white";
 			elt.children[0].play();
@@ -30,7 +29,6 @@ class App extends React.Component {
 		}
 	}
 	playAudio(e) {
-		console.log(e.target.id);
 		this.setState({ name: e.target.id });
 		e.target.children[0].play();
 	}
@@ -96,9 +94,7 @@ class App extends React.Component {
 						color={{ backgroundColor: "#f39c12" }}
 						onClick={this.playAudio}
 					/>
-					{/* {this.state.name} */}
-					<footer id='display'>
-						{/* {this.state.name} */}
+					<footer id='footer'>
 						<h3>{this.state.name}</h3>
 					</footer>
 				</section>
