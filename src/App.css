@@ -10,7 +10,6 @@ body {
 	flex-direction: column;
 	width: 400px;
 	background-color: rgb(224, 224, 224);
-	margin: 60px auto;
 	padding: 30px;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -44,6 +43,8 @@ header h2 {
 }
 footer {
 	display: flex;
+  justify-content: center;
+  align-items: center;
 	margin: 20px auto 0 auto;
 	background-color: #fff;
 	width: 170px;
